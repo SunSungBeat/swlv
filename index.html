@@ -104,22 +104,27 @@
 					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 303.4 Angstrom (satellites GOES-16 и GOES-17 [и GOES-19])">
 						<img src="https://services.swpc.noaa.gov/images/animations/suvi/primary/304/latest.png" />
 					</a>
-					<a href="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" target="blank" title="Sun in 174 Angstrom (satellite Solar Orbiter SOLO)">
-						<img src="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" />
-					</a>
 					<a href="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_1024.jpg" target="blank" title="Sunspots HMI (satellite SDO)">
 						<img src="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_512.jpg" />
 					</a>
+					<script>
+						const et = new Date().toISOString().slice(0, 10).split("-").join("")-1;
+						document.write('<a href="https://www.solen.info/solar/images/AR_CH_'+ et + '_4K.png" target="blank" title="Active solar regions (www.solen.info)">');
+						document.write('<img src="https://www.solen.info/solar/images/charmap512.jpg" /></a>');
+					</script>				
 					<a href="https://services.swpc.noaa.gov/images/synoptic-map.jpg" target="blank" title="Synoptic Map (SWPC)">
 						<img src="https://services.swpc.noaa.gov/images/synoptic-map.jpg" />
-					</a>	
+					</a>
 					<script>
 						const dt = new Date().toISOString().slice(0, 10).split("-").join("/");					
-						document.write('<a href="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt +'/aia_light_curves.gif" target="blank" title="Solar intensity diagrams - model Schrijver & DeRosa (satellites SDO и GOES-16)">');
-						document.write('<img src="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt +'/aia_light_curves.gif" /></a>');
+						document.write('<a href="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" target="blank" title="Solar intensity diagrams - model Schrijver & DeRosa (satellites SDO и GOES-16)">');
+						document.write('<img src="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" /></a>');
 					</script>				
 				</td>
 				<td width="7.1%">
+					<a href="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" target="blank" title="Sun in 174 Angstrom (satellite Solar Orbiter SOLO)">
+						<img src="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" />
+					</a>
 					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0131.jpg" target="blank" title="Sun in 131 Angstrom (satellite SDO)">
 						<img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0131.jpg" />
 					</a>
@@ -128,9 +133,6 @@
 					</a>
 					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0193.jpg" target="blank" title="Sun in 193 Angstrom (satellite SDO)">
 						<img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0193.jpg" />
-					</a>
-					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0304.jpg" target="blank" title="Sun in 304 Angstrom (satellite SDO)">
-						<img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0304.jpg" />
 					</a>
 					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_HMIBC.jpg" target="blank" title="Solar Colorized Magnetogram HMI (satellite SDO)">
 						<img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_HMIBC.jpg" />
