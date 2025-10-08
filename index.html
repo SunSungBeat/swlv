@@ -12,7 +12,7 @@
     <meta name="Space Weather LazyView - Sun Sung Beat" content="width=device-width, initial-scale=1">
     <title>Space Weather LazyView - Sun Sung Beat</title>
     <link rel="icon" href="logo.ico" type="image/x-icon">
-    <meta name="version" content="2.69.10">
+    <meta name="version" content="2.70.10">
     <meta name="refresh" content="10 min"> 
     <meta name="date" content="2025.oct.08"> 
     <meta name="youtube" content="https://www.youtube.com/@SunSungBeat"> 
@@ -112,7 +112,11 @@
 						<img src="https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg" />
 					</a>
 					<a href="https://xras.ru/en/aurora.html" target="blank" title="Northern Lights (Russia)">
-						<img src="https://xras.ru/database/aurora/latest/R/20251007_1123_aurora.png" />
+						<script>
+							const dd = new Date().toISOString().slice(0, 10).split("-").join("");
+							const tt = new Date().toISOString().slice(11, 16).split(":").join("");
+							document.write('<img src="https://xras.ru/database/aurora/latest/R/' + dd + '_' + tt + '_aurora.png" />');
+						</script>				
 					</a>
 				</td>
 				<td width="8.5%">
@@ -353,6 +357,7 @@
 	</table>
   </body>
 </html>
+
 
 
 
