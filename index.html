@@ -228,7 +228,8 @@
 						<img class="efront" src="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_512.jpg" />
 					</a>
 					<script>
-						const et = new Date().toISOString().slice(0, 10).split("-").join("")-1;
+						const cDate = new Date();
+						const et = new Date(cDate.setDate(cDate.getDate() - 1)).toISOString().slice(0, 10).split("-").join("");		
 						document.write('<a href="https://www.solen.info/solar/images/AR_CH_'+ et + '_hres.png" target="blank" title="Active solar regions (www.solen.info)">');
 						document.write('<img class="efront" src="https://www.solen.info/solar/images/charmap512.jpg" /></a>');
 					</script>				
@@ -477,6 +478,7 @@
 	</table>
   </body>
 </html>
+
 
 
 
