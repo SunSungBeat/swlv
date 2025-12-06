@@ -7,14 +7,13 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());	
 	  gtag('config', 'G-620X52Y5VF');
-	</script>   
-    <meta charset="utf-8">
+	</script> <meta charset="utf-8">
     <meta name="Space Weather LazyView - Sun Sung Beat" content="width=device-width, initial-scale=1">
     <title>Space Weather LazyView - Sun Sung Beat</title>
     <link rel="icon" href="https://avatars.githubusercontent.com/u/213048220" type="image/x-icon">
-    <meta name="version" content="2.94.10">
+    <meta name="version" content="2.95.10">
     <meta name="refresh" content="10 min"> 
-    <meta name="date" content="2025.nov.14"> 
+    <meta name="date" content="2025.dec.06"> 
     <meta name="youtube" content="https://www.youtube.com/@SunSungBeat"> 
     <meta name="channel" content="Sun Sung Beat"> 
     <meta http-equiv="REFRESH" content="600">
@@ -30,6 +29,12 @@
 		img {
 			display: block;
 			width:100%;
+		}
+		img:hover {
+			position: relative; 
+			z-index: 10;
+		  	transition: all 0.3s;
+		  	-webkit-transition: all 0.3s;
 		}
 		body {
 			background-color: #000000;
@@ -75,106 +80,108 @@
 		  	-moz-transform: scale(1.5);
 		  	-o-transform: scale(1.5);
 		  	transform: scale(1.5);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontL:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(30px);
+		  	-moz-transform: scale(1.5) translate(30px);
+		  	-o-transform: scale(1.5) translate(30px);
 		  	transform: scale(1.5) translate(30px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontR:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(-30px);
+		  	-moz-transform: scale(1.5) translate(-30px);
+		  	-o-transform: scale(1.5) translate(-30px);
 		  	transform: scale(1.5) translate(-30px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontT:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(0px, 10px);
+		  	-moz-transform: scale(1.5) translate(0px, 10px);
+		  	-o-transform: scale(1.5) translate(0px, 10px);
 		  	transform: scale(1.5) translate(0px, 10px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontB:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(0px,-10px);
+		  	-moz-transform: scale(1.5) translate(0px,-10px);
+		  	-o-transform: scale(1.5) translate(0px,-10px);
 		  	transform: scale(1.5) translate(0px,-10px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontTL:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(30px, 10px);
+		  	-moz-transform: scale(1.5) translate(30px, 10px);
+		  	-o-transform: scale(1.5) translate(30px, 10px);
 		  	transform: scale(1.5) translate(30px, 10px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontTR:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(-30px, 10px);
+		  	-moz-transform: scale(1.5) translate(-30px, 10px);
+		  	-o-transform: scale(1.5) translate(-30px, 10px);
 		  	transform: scale(1.5) translate(-30px, 10px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontBL:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(30px, -10px);
+		  	-moz-transform: scale(1.5) translate(30px, -10px);
+		  	-o-transform: scale(1.5) translate(30px, -10px);
 		  	transform: scale(1.5) translate(30px, -10px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
 		.efrontBR:hover {
-		  	-webkit-transform: scale(1.5);
-		  	-moz-transform: scale(1.5);
-		  	-o-transform: scale(1.5);
+		  	-webkit-transform: scale(1.5) translate(-30px, -10px);
+		  	-moz-transform: scale(1.5) translate(-30px, -10px);
+		  	-o-transform: scale(1.5) translate(-30px, -10px);
 		  	transform: scale(1.5) translate(-30px, -10px);
-		  	transition: all 0.3s;
-		  	-webkit-transition: all 0.3s;
 		}
+		.invert {
+		  	-webkit-filter: invert(0) contrast(160%) saturate(1000%) hue-rotate(180deg);
+	    	filter: invert(0) contrast(160%) saturate(1000%) hue-rotate(180deg);
+	    }
+		.invert1 {
+		  	-webkit-filter: invert(0) contrast(100%) saturate(1000%) hue-rotate(180deg);
+	    	filter: invert(0) contrast(100%) saturate(1000%) hue-rotate(180deg);
+	    }
+		.invert2 {
+		  	-webkit-filter: invert(1) contrast(200%) saturate(1000%) hue-rotate(144deg);
+	    	filter: invert(1) contrast(200%) saturate(1000%) hue-rotate(144deg);
+	    }
+		.invert3 {
+		  	-webkit-filter: invert(0) contrast(200%) saturate(500%) hue-rotate(0deg);
+	    	filter: invert(0) contrast(200%) saturate(500%) hue-rotate(0deg);
+	    }
+		.invert4 {
+		  	-webkit-filter: invert(1) contrast(100%) saturate(500%) hue-rotate(180deg);
+	    	filter: invert(1) contrast(100%) saturate(500%) hue-rotate(180deg);
+	    }
 	</style>
 		<div>Space Weather LazyView - Sun Sung Beat</div>
 		<table width="100%">
 			<tr>
-				<td class="1" width="11.8%">
+				<td class="1" width="12.0%">
 					<a href="https://www.spaceweather.gov/products/d-region-absorption-predictions-d-rap" target="blank" title="D-Region Absorption (National Oceanic and Atmospheric Administration NOAA)">
 						<img class="efrontTL" src="https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/goes-x-ray-flux" target="blank" title="GOES X-Ray Flux (satellites GOES-16 and GOES-18)">
-						<img class="efrontL" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_xray.png?alt=media" />
+						<img class="efrontL invert" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_xray.png?alt=media" />
 					</a>
 					<a href="https://flux.phys.uit.no/cgi-bin/mkstackplot.cgi?GifOnly&nor=Norwegian+line&comp=H&day=00&month=00&year=0000&site=tro2a" target="blank" title="Magnetometers H-component (Norway, Denmark and Finland)">
-						<img class="efrontL" src="https://flux.phys.uit.no/cgi-bin/mkstackplot.cgi?GifOnly&nor=Norwegian+line&comp=H&day=00&month=00&year=0000&site=tro2a" />
+						<img class="efrontL invert4" src="https://flux.phys.uit.no/cgi-bin/mkstackplot.cgi?GifOnly&nor=Norwegian+line&comp=H&day=00&month=00&year=0000&site=tro2a" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/goes-magnetometer" target="blank" title="GOES magnetometers (satellites GOES-16 and GOES-18)">
-						<img class="efrontBL" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_mag.png?alt=media" />
+						<img class="efrontBL invert4" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_mag.png?alt=media" />
 					</a>
 				</td>
-				<td class="2" width="12.2%">
+				<td class="2" width="12.9%">
 					<a href="https://sos70.ru" target="blank" title="Schumann resonance - Sonogram of MICROWAVE noise - Amplitudes of electromagnetic oscillations (Space Observing System 70)">
 						<img class="efrontT" src="https://sos70.ru/provider.php?file=shm.jpg" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/ace-real-time-solar-wind" target="blank" title="Solar wind - stream of low-energy protons and electrons (satellite Advanced Composition Explorer ACE )">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/ace-epam-6-hour.gif" /> 
+						<img class="efront invert1" src="https://services.swpc.noaa.gov/images/ace-epam-6-hour.gif" /> 
 					</a>
 					<a href="https://www.spaceweather.gov/products/goes-electron-flux" target="blank" title="Solar wind - stream of high-energy electrons (satellite GOES-16)">
-						<img class="efront" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_electron.png?alt=media" /> 
+						<img class="efront invert" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_electron.png?alt=media" /> 
 					</a>
 					<a href="https://www.spaceweather.gov/products/goes-proton-flux" target="blank" title="Solar wind - stream of high-energy protons (satellite GOES-18)">
-						<img class="efront" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_proton.png?alt=media" /> 
+						<img class="efront invert" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_proton.png?alt=media" /> 
 					</a>
 					<a href="https://services.swpc.noaa.gov/images/storm-corrections.png" target="blank" title="STORM Time empirical ionospheric correction model (NOAA / SWPC)">
-						<img class="efrontB" src="https://services.swpc.noaa.gov/images/storm-corrections.png" /> 
+						<img class="efrontB invert4" src="https://services.swpc.noaa.gov/images/storm-corrections.png" /> 
 					</a>
 				</td>
 				<td class="3" width="11.7%">
@@ -205,57 +212,60 @@
 						<img class="efrontT" src="https://services.swpc.noaa.gov/images/animations/enlil/latest.jpg" />
 					</a>
 					<a href="https://www.solarham.com/cmetracking.htm" target="blank" title="Solar wind - model ENLIL 2.7 (NASA -ISWA)">
-						<img class="efront" src="https://www.solarham.com/pictures/2025/1WSA.gif" />
+						<img class="efront invert4" src="https://www.solarham.com/pictures/2025/1WSA.gif" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/geospace-magnetosphere-movies" target="blank" title="Earth's magnetosphere - solar wind speed (National Oceanic and Atmospheric Administration NOAA)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/geospace/velocity/latest.png" />
+						<img class="efront invert4" src="https://services.swpc.noaa.gov/images/animations/geospace/velocity/latest.png" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/geospace-magnetosphere-movies" target="blank" title="Earth's magnetosphere - solar wind density (National Oceanic and Atmospheric Administration NOAA)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/geospace/density/latest.png" />
+						<img class="efront invert4" src="https://services.swpc.noaa.gov/images/animations/geospace/density/latest.png" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/geospace-magnetosphere-movies" target="blank" title="Earth's magnetosphere - solar wind pressure (National Oceanic and Atmospheric Administration NOAA)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/geospace/pressure/latest.png" />
+						<img class="efront invert4" src="https://services.swpc.noaa.gov/images/animations/geospace/pressure/latest.png" />
 					</a>
 					<a href="https://helioforecast.space/aurora" target="blank" title="Aurora visualisation - NOAA-21 VIIRS (Austrian Space Weather Office GeoSphere Austria)">
 						<img class="efrontB" src="https://helioforecast.space/static/sync/aurora/flux_global.gif" />
 					</a>
 				</td>
-				<td class="5" width="9.0%">
-					<a href="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_1024.jpg" target="blank" title="Sunspots HMI (satellite SDO)">
-						<img class="efront" src="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_512.jpg" />
-					</a>
-					<script>
-						const cDate = new Date();
-						const et = new Date(cDate.setDate(cDate.getDate() - 1)).toISOString().slice(0, 10).split("-").join("");		
-						document.write('<a href="https://www.solen.info/solar/images/AR_CH_'+ et + '_hres.png" target="blank" title="Active solar regions (www.solen.info)">');
-						document.write('<img class="efront" src="https://www.solen.info/solar/images/charmap512.jpg" /></a>');
-					</script>				
-					<a href="https://services.swpc.noaa.gov/images/synoptic-map.jpg" target="blank" title="Synoptic Map (SWPC)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/synoptic-map.jpg" />
-					</a>
-					<a href="https://sidc.be/SILSO/DATA/EISN/EISNcurrent.png" target="blank" title="Estimated international sunspot number (Royal Observatory of Belgium (SILSO)">
-						<img class="efrontB" src="https://sidc.be/SILSO/DATA/EISN/EISNcurrent.png" />
-					</a>
-					<script>
-						const dt = new Date().toISOString().slice(0, 10).split("-").join("/");					
-						document.write('<a href="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" target="blank" title="Solar intensity diagrams - model Schrijver & DeRosa (satellites SDO и GOES-16)">');
-						document.write('<img class="efrontB" src="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" /></a>');
-					</script>				
-				</td>
-				<td class="6" width="8.5%">
-					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 303.4 Angstrom (satellites GOES-19)">
+				<td class="5" width="8.9%">
+					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 304 Angstrom wavelength (satellites GOES-19)">
 						<img class="efrontT" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/304/latest.png" />
-					</a>
-					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 131 Angstrom (satellites GOES-19)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png" />
-					</a>
-					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 195 Angstrom (satellites GOES-19)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/195/latest.png" />
 					</a>
 					<a href="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" target="blank" title="Sun in 174 Angstrom (satellite Solar Orbiter SOLO)">
 						<img class="efrontT" src="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" />
+					</a>			
+					<a href="https://services.swpc.noaa.gov/images/synoptic-map.jpg" target="blank" title="Synoptic Map (SWPC)">
+						<img class="efront invert4" src="https://services.swpc.noaa.gov/images/synoptic-map.jpg" />
+					</a>	
+					<a href="https://sidc.be/SILSO/eisnplot" target="blank" title="Estimated international sunspot number (Royal Observatory of Belgium (EISN / SIDC)">
+						<img class="efrontB invert4" src="https://sidc.be/SILSO/DATA/EISN/EISNcurrent.png" />
+					</a>		
+					<script>
+						const dt = new Date().toISOString().slice(0, 10).split("-").join("/");					
+						document.write('<a href="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" target="blank" title="Solar intensity diagrams - model Schrijver & DeRosa (satellites SDO и GOES-16)">');
+						document.write('<img class="efrontB invert4" src="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" /></a>');
+					</script>	
+				</td>
+				<td class="6" width="7.1%">
+					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 131 Angstrom wavelength (satellites GOES-19)">
+						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png" />
 					</a>
-					<a href="https://umbra.nascom.nasa.gov/images/latest_aia_4500.gif" target="blank" title="Sun in 4500 Angstrom (satellite SDO)">
+					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 171 Angstrom wavelength (satellites GOES-19)">
+						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/171/latest.png" />
+					</a>
+					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 195 Angstrom wavelength (satellites GOES-19)">
+						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/195/latest.png" />
+					</a>
+					<a href="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_1024.jpg" target="blank" title="Sunspots HMI (satellite SDO)">
+						<img class="efront" src="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_512.jpg" />
+					</a>	
+					<script>
+						const cDate = new Date();
+						const et = new Date(cDate.setDate(cDate.getDate() - 1)).toISOString().slice(0, 10).split("-").join("");						
+						document.write('<a href="https://www.solen.info/solar/images/AR_CH_'+ et + '_hres.png" target="blank" title="Active solar regions (www.solen.info)">');
+						document.write('<img class="efront" src="https://www.solen.info/solar/images/charmap512.jpg" /></a>');
+					</script>
+					<a href="https://umbra.nascom.nasa.gov/images/latest_aia_4500.gif" target="blank" title="Sun in 4500 Angstrom wavelength (satellite SDO)">
 						<img class="efront" src="https://umbra.nascom.nasa.gov/images/latest_aia_4500.gif" />
 					</a>
 				</td>
@@ -276,27 +286,27 @@
 						<img class="efront" src="https://stereo-ssc.nascom.nasa.gov/beacon/latest_512/ahead_cor2_latest.jpg" />
 					</a>
 				</td>
-				<td class="8" width="9.3%">
+				<td class="8" width="9.4%">
 					<a href="https://www.volcanodiscovery.com/earthquakes/global-seismic-activity-level.html" target="blank" title="Global Seismic Activity Level 90-days (Volcano Discovery)">
-						<img class="efrontTR" src="https://volcanodiscovery.de/fileadmin/charts/seismic-activity-level.png" />
+						<img class="efrontTR invert2" src="https://volcanodiscovery.de/fileadmin/charts/seismic-activity-level.png" />
 					</a>
 					<a href="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2FkpChart.png?alt=media" target="blank" title="Estimated planetary K index (spaceweathernews.com)">
-						<img class="efrontR" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2FkpChart.png?alt=media" />
+						<img class="efrontR invert3" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2FkpChart.png?alt=media" />
 					</a>
 					<a href="https://helioforecast.space/solarcycle" target="blank" title="Number of sunspots (GeoSphere Austria)">
-						<img class="efrontR" src="https://helioforecast.space/static/sync/icme_solar_cycle/cycle25_prediction_focus.png" />
+						<img class="efrontR invert4" src="https://helioforecast.space/static/sync/icme_solar_cycle/cycle25_prediction_focus.png" />
 					</a>
 					<a href="https://helioforecast.space/static/sync/elevo/elevo.mp4" target="blank" title="Coronal mass ejections - ELEvo | NOAA L1 RTSW, STEREO-A (GeoSphere Austria)">
-						<img class="efrontB" src="https://helioforecast.space/static/sync/elevo/current_image.jpg" /> 
+						<img class="efrontB invert4" src="https://helioforecast.space/static/sync/elevo/current_image.jpg" /> 
 					</a>
 					<a href="https://solen.info/solar/images/swind.png" target="blank" title="Solar wind, speed and density for the year (satellites SOHO и DSCOVR)">
-						<img class="efrontR" src="https://solen.info/solar/images/swind.png" />
+						<img class="efrontR invert4" src="https://solen.info/solar/images/swind.png" />
 					</a>
 					<a href="https://www.solen.info/solar/images/electronfluence.png" target="blank" title="Solar wind - stream of high-energy electrons for the year (site solen.info)">
-						<img class="efrontR" src="https://www.solen.info/solar/images/electronfluence.png" />
+						<img class="efrontR invert4" src="https://www.solen.info/solar/images/electronfluence.png" />
 					</a>
 					<a href="https://solen.info/solar/polarfields/polar.html" target="blank" title="Solar polar fields">
-						<img class="efrontBR" src="https://solen.info/solar/polarfields/polarfields.png" />
+						<img class="efrontBR invert4" src="https://solen.info/solar/polarfields/polarfields.png" />
 					</a>
 				</td>
 			</tr>
@@ -486,6 +496,7 @@
 	</table>
   </body>
 </html>
+
 
 
 
