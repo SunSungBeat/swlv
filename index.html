@@ -39,6 +39,9 @@
 		body {
 			background-color: #000000;
 		}
+		::-webkit-scrollbar { 
+		    display: none; 
+		}
 		.pLine {
   			border: 1px solid rgb(51 51 51);
 		}
@@ -154,7 +157,7 @@
 	    }
 	</style>
 		<div>Space Weather LazyView - Sun Sung Beat</div>
-		<table width="99%">
+		<table width="100%">
 			<tr>
 				<td class="1" width="12.0%">
 					<a href="https://www.spaceweather.gov/products/d-region-absorption-predictions-d-rap" target="blank" title="D-Region Absorption (National Oceanic and Atmospheric Administration NOAA)">
@@ -258,15 +261,12 @@
 						document.write('<img class="efrontB invert4" src="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" /></a>');
 					</script>	
 				</td>
-				<td class="6" width="6.1%">
+				<td class="6" width="7.1%">
 					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0171.jpg" target="blank" title="Sun in 171 Angstrom wavelength (satellite SDO)">
 						<img class="efrontT" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0171.jpg" />
 					</a>
 					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0131.jpg" target="blank" title="Sun in 131 Angstrom wavelength (satellite SDO)">
 						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0131.jpg" />
-					</a>
-					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0193.jpg" target="blank" title="Sun in 193 Angstrom wavelength (satellite SDO)">
-						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0193.jpg" />
 					</a>
 					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0211.jpg" target="blank" title="Sun in 211 Angstrom wavelength (satellite SDO)">
 						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0211.jpg" />
@@ -320,7 +320,7 @@
 				</td>
 			</tr>
 		</table>
-		<table width="99%" class="pLine">
+		<table width="100%" class="pLine">
 			<tr class="0" width="100%">			
 				<td width="5.0%">
 					<table>
@@ -505,6 +505,7 @@
 	</table>
   </body>
 </html>
+
 
 
 
