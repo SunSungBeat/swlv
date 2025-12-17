@@ -11,9 +11,9 @@
     <meta name="Space Weather LazyView - Sun Sung Beat" content="width=device-width, initial-scale=1">
     <title>Space Weather LazyView - Sun Sung Beat</title>
     <link rel="icon" href="https://avatars.githubusercontent.com/u/213048220" type="image/x-icon">
-    <meta name="version" content="2.97.10">
+    <meta name="version" content="2.98.10">
     <meta name="refresh" content="10 min"> 
-    <meta name="date" content="2025.dec.08"> 
+    <meta name="date" content="2025.dec.17"> 
     <meta name="youtube" content="https://www.youtube.com/@SunSungBeat"> 
     <meta name="channel" content="Sun Sung Beat"> 
     <meta http-equiv="REFRESH" content="600">
@@ -154,7 +154,7 @@
 	    }
 	</style>
 		<div>Space Weather LazyView - Sun Sung Beat</div>
-		<table width="100%">
+		<table width="99%">
 			<tr>
 				<td class="1" width="12.0%">
 					<a href="https://www.spaceweather.gov/products/d-region-absorption-predictions-d-rap" target="blank" title="D-Region Absorption (National Oceanic and Atmospheric Administration NOAA)">
@@ -233,13 +233,19 @@
 						<img class="efrontB" src="https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg" />
 					</a>
 				</td>
-				<td class="5" width="8.9%">
+				<td class="5" width="7.4%">
 					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 304 Angstrom wavelength (satellites GOES-19)">
 						<img class="efrontT" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/304/latest.png" />
 					</a>
-					<a href="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" target="blank" title="Sun in 174 Angstrom (satellite Solar Orbiter SOLO)">
-						<img class="efront" src="https://api.swhv.oma.be/hv_docpage/v2/takeScreenshot/?date=2099-01-01T00:00:00Z&imageScale=4.44&layers=%5BSOLO,EUI,FSI,174,1,100%5D&x0=0&y0=0&width=760&height=768&eventLabels=false&display=true" />
-					</a>			
+					<a href="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_1024.jpg" target="blank" title="Sunspots HMI (satellite SDO)">
+						<img class="efront" src="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_512.jpg" />
+					</a>	
+					<script>
+						const cDate = new Date();
+						const et = new Date(cDate.setDate(cDate.getDate() - 1)).toISOString().slice(0, 10).split("-").join("");						
+						document.write('<a href="https://www.solen.info/solar/images/AR_CH_'+ et + '_hres.png" target="blank" title="Active solar regions (www.solen.info)">');
+						document.write('<img class="efront" src="https://www.solen.info/solar/images/charmap512.jpg" /></a>');
+					</script>
 					<a href="https://services.swpc.noaa.gov/images/synoptic-map.jpg" target="blank" title="Synoptic Map (SWPC)">
 						<img class="efront invert4" src="https://services.swpc.noaa.gov/images/synoptic-map.jpg" />
 					</a>	
@@ -252,25 +258,25 @@
 						document.write('<img class="efrontB invert4" src="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" /></a>');
 					</script>	
 				</td>
-				<td class="6" width="7.1%">
-					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 131 Angstrom wavelength (satellites GOES-19)">
-						<img class="efrontT" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png" />
+				<td class="6" width="6.1%">
+					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0171.jpg" target="blank" title="Sun in 171 Angstrom wavelength (satellite SDO)">
+						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0171.jpg" />
 					</a>
-					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 171 Angstrom wavelength (satellites GOES-19)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/171/latest.png" />
+					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0131.jpg" target="blank" title="Sun in 131 Angstrom wavelength (satellite SDO)">
+						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0131.jpg" />
 					</a>
-					<a href="https://www.spaceweather.gov/products/goes-solar-ultraviolet-imager-suvi" target="blank" title="Sun in 195 Angstrom wavelength (satellites GOES-19)">
-						<img class="efront" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/195/latest.png" />
+					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0193.jpg" target="blank" title="Sun in 193 Angstrom wavelength (satellite SDO)">
+						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0193.jpg" />
 					</a>
-					<a href="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_1024.jpg" target="blank" title="Sunspots HMI (satellite SDO)">
-						<img class="efront" src="https://www.spaceweatherlive.com/images/SDO/SDO_HMIIF_512.jpg" />
-					</a>	
-					<script>
-						const cDate = new Date();
-						const et = new Date(cDate.setDate(cDate.getDate() - 1)).toISOString().slice(0, 10).split("-").join("");						
-						document.write('<a href="https://www.solen.info/solar/images/AR_CH_'+ et + '_hres.png" target="blank" title="Active solar regions (www.solen.info)">');
-						document.write('<img class="efront" src="https://www.solen.info/solar/images/charmap512.jpg" /></a>');
-					</script>
+					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0211.jpg" target="blank" title="Sun in 211 Angstrom wavelength (satellite SDO)">
+						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_0211.jpg" />
+					</a>
+					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_HMIBC.jpg" target="blank" title="Solar Colorized Magnetogram HMI (satellite SDO)">
+						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_HMIBC.jpg" />
+					</a>
+					<a href="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_HMID.jpg" target="blank" title="HMI Dopplergram of Sun (satellite SDO )">
+						<img class="efront" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_256_HMID.jpg" />
+					</a>
 					<a href="https://umbra.nascom.nasa.gov/images/latest_aia_4500.gif" target="blank" title="Sun in 4500 Angstrom wavelength (satellite SDO)">
 						<img class="efrontB" src="https://umbra.nascom.nasa.gov/images/latest_aia_4500.gif" />
 					</a>
@@ -314,7 +320,7 @@
 				</td>
 			</tr>
 		</table>
-		<table class="pLine">
+		<table width="99%" class="pLine">
 			<tr class="0" width="100%">			
 				<td width="5.0%">
 					<table>
@@ -499,6 +505,7 @@
 	</table>
   </body>
 </html>
+
 
 
 
