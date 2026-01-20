@@ -12,9 +12,9 @@
     <meta name="Space Weather LazyView - Sun Sung Beat" content="width=device-width, initial-scale=1">
     <title>Space Weather LazyView - Sun Sung Beat</title>
     <link rel="icon" href="https://avatars.githubusercontent.com/u/213048220" type="image/x-icon">
-    <meta name="version" content="2.103.10">
+    <meta name="version" content="2.104.10">
     <meta name="refresh" content="10 min"> 
-    <meta name="date" content="2026.jan.19"> 
+    <meta name="date" content="2026.jan.20"> 
     <meta name="youtube" content="https://www.youtube.com/@SunSungBeat"> 
     <meta name="channel" content="Sun Sung Beat"> 
     <meta http-equiv="REFRESH" content="600">
@@ -149,8 +149,16 @@
 	    	filter: invert(1) contrast(200%) saturate(1000%) hue-rotate(144deg);
 	    }
 		.invert3 {
-		  	-webkit-filter: invert(0) contrast(200%) saturate(500%) hue-rotate(0deg);
-	    	filter: invert(0) contrast(200%) saturate(500%) hue-rotate(0deg);
+		  	-webkit-filter: invert(0) contrast(200%) saturate(2000%) hue-rotate(0deg);
+	    	filter: invert(0) contrast(200%) saturate(2000%) hue-rotate(0deg);
+	    }
+		.invert31 {
+		  	-webkit-filter: invert(0) contrast(200%) saturate(2000%) hue-rotate(270deg);
+	    	filter: invert(0) contrast(200%) saturate(2000%) hue-rotate(270deg);
+	    }
+		.invert32 {
+		  	-webkit-filter: invert(0) contrast(200%) saturate(2000%) hue-rotate(0deg);
+	    	filter: invert(0) contrast(200%) saturate(2000%) hue-rotate(0deg);
 	    }
 		.invert4 {
 		  	-webkit-filter: invert(1) contrast(100%) saturate(500%) hue-rotate(180deg);
@@ -168,6 +176,10 @@
 		  	-webkit-filter: invert(1) contrast(100%) saturate(100%) hue-rotate(165deg);
 	    	filter: invert(1) contrast(100%) saturate(100%) hue-rotate(165deg);
 	    }
+		.invert44 {
+		  	-webkit-filter: invert(1) contrast(100%) saturate(1000%) hue-rotate(180deg);
+	    	filter: invert(1) contrast(100%) saturate(1000%) hue-rotate(180deg);
+	    }
 	</style>
 		<div>Space Weather LazyView - Sun Sung Beat</div>
 		<table width="100%">
@@ -177,27 +189,27 @@
 						<img class="efrontTL" src="https://services.swpc.noaa.gov/images/animations/d-rap/global/latest.png" />
 					</a>
 					<a href="https://xras.ru/en/sun_flares.html" target="blank" title="Solar X-ray Flux (GOES-18 / Laboratory ox X-ray astronomy of the Sun)">
-						<img class="efrontL invert3" src="https://xras.ru/image/xray_L59E_en.png" />
+						<img class="efrontL invert32" src="https://xras.ru/image/xray_L59E_en.png" />
 					</a>
 					<a href="https://flux.phys.uit.no/cgi-bin/mkstackplot.cgi?GifOnly&nor=Norwegian+line&comp=H&day=00&month=00&year=0000&site=tro2a" target="blank" title="Magnetometers H-component (Norway, Denmark and Finland)">
-						<img class="efrontL invert4" src="https://flux.phys.uit.no/cgi-bin/mkstackplot.cgi?GifOnly&nor=Norwegian+line&comp=H&day=00&month=00&year=0000&site=tro2a" />
+						<img class="efrontL invert44" src="https://flux.phys.uit.no/cgi-bin/mkstackplot.cgi?GifOnly&nor=Norwegian+line&comp=H&day=00&month=00&year=0000&site=tro2a" />
 					</a>
 					<a href="https://www.spaceweather.gov/products/goes-magnetometer" target="blank" title="GOES magnetometers (satellites GOES-16 and GOES-18)">
 						<img class="efrontBL invert4" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_mag.png?alt=media" />
 					</a>
 				</td>
-				<td class="2" width="12.0%">
+				<td class="2" width="13.0%">
 					<a href="https://sos70.ru" target="blank" title="Schumann resonance - Sonogram of MICROWAVE noise - Amplitudes of electromagnetic oscillations (Space Observing System 70)">
 						<img class="efrontT" src="https://sos70.ru/provider.php?file=shm.jpg" />
 					</a>
-					<a href="https://www.spaceweather.gov/products/ace-real-time-solar-wind" target="blank" title="High Energy Protons - Solar Isotope Spectrometer (NOAA/ACE)">
-						<img class="efront invert1" src="https://services.swpc.noaa.gov/images/ace-sis-24-hour.gif" />
+					<a href="https://www.spaceweather.gov/products/goes-proton-flux" target="blank" title="Solar wind - stream of high-energy protons (satellite GOES-18)">
+						<img class="efront invert31" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_proton.png?alt=media" /> 
 					</a>
-					<a href="https://www.spaceweather.gov/products/goes-proton-flux" target="blank" title="Low Energy Protons - Electron Proton Alpha Monitor (NOAA/ACE)">
-						<img class="efront invert1" src="https://services.swpc.noaa.gov/images/ace-epam-p-24-hour.gif" />
+					<a href="https://www.spaceweather.gov/products/goes-electron-flux" target="blank" title="Solar wind - stream of high-energy electrons (satellite GOES-16)">
+						<img class="efront invert3" src="https://firebasestorage.googleapis.com/v0/b/carrington-9.appspot.com/o/spaceWeatherNews%2Fgoes_electron.png?alt=media" /> 
 					</a>
-					<a href="https://www.spaceweather.gov/products/goes-electron-flux" target="blank" title="Low Energy Electrons - Electron Proton Alpha Monitor (NOAA/ACE)">
-						<img class="efront invert1" src="https://services.swpc.noaa.gov/images/ace-epam-e-24-hour.gif" />
+					<a href="https://www.spaceweather.gov/products/ace-real-time-solar-wind" target="blank" title="Solar wind - stream of low-energy protons and electrons (satellite Advanced Composition Explorer ACE )">
+						<img class="efront invert1" src="https://services.swpc.noaa.gov/images/ace-epam-6-hour.gif" /> 
 					</a>
 					<a href="https://services.swpc.noaa.gov/images/storm-corrections.png" target="blank" title="STORM Time empirical ionospheric correction model (NOAA / SWPC)">
 						<img class="efrontB invert4" src="https://services.swpc.noaa.gov/images/storm-corrections.png" /> 
@@ -264,7 +276,7 @@
 					</a>
 					<a href="https://services.swpc.noaa.gov/images/synoptic-map.jpg" target="blank" title="Synoptic Map (SWPC)">
 						<img class="efront invert4" src="https://services.swpc.noaa.gov/images/synoptic-map.jpg" />
-					</a>
+					</a>		
 					<script>
 						const dt = new Date().toISOString().slice(0, 10).split("-").join("/");					
 						document.write('<a href="https://suntoday.lmsal.com/sdomedia/SunInTime/'+ dt + '/aia_light_curves.gif" target="blank" title="Solar intensity diagrams - model Schrijver & DeRosa (satellites SDO и GOES-16)">');
